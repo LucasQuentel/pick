@@ -17,4 +17,14 @@ Route::get('/', function () {
 
 Route::auth();
 
-Route::get('/home', 'HomeController@index');
+
+
+// GET Routes
+
+Route::get('/home', 'PageController@index');
+Route::get('/about', 'PageController@about');
+Route::get('/contact', 'PageController@contact');
+
+// POST Routes
+
+

@@ -51,8 +51,10 @@
                     @if (!Auth::guest())
                     <li><a href="{{ url('/home') }}">Home</a></li>
                     @else 
-
                     @endif
+                    <li><a href="http://github.com/nownewstart/pick" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>
+                    <li><a href="{{ url('/about') }}">About</a></li>
+                    <li><a href="{{ url('/contact') }}">Contact</a></li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->
