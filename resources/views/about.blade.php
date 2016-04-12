@@ -7,6 +7,7 @@
                 <h1>About</h1>
 
                 We don't have much to say about us yet :o
+                hi ich bin dave der shit noob
 
         </div>
     </div>
